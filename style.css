@@ -1,0 +1,14 @@
+/* CSS Document */
+body{ overflow: hidden; background: #3e3e3e; color: #DEDEDE; }
+.ghs_weather{ width: 100vw; height: 100vh; }
+.ghs_weather .ghs_current_weather{ height: 46vh; font-size: 5rem; text-align: center; display: flex; align-items: center; justify-content: center; margin-top: 3rem; }
+.ghs_time{ margin: 0; font-size: 1.2rem; }
+.ghs_weather .ghs_current_weather .weather_status{ font-size: 2rem; margin: auto; line-height: 1rem; }
+.ghs_weather .ghs_current_weather .ghs_temp{ font-size: 5rem; margin: 0; line-height: 7rem; }
+.ghs_weather .ghs_forecast_weather{ list-style: none; display: flex; }
+.ghs_weather .ghs_forecast_weather li{ flex: auto; padding: 1rem; text-align: center; width: 33%; }
+.ghs_forecast_weather .ghs_min_max_temps{ display: flex; justify-content: space-evenly; text-align: center; }
+.ghs_forecast_weather{ font-size: 2rem; line-height: 2rem; margin: 0; padding: 0; }
+.ghs_forecast_weather .ghs_temp_daily{ margin: 0;font-size: 1.5rem;line-height: 3rem;}
+.weather_status{ margin-top: 1rem!important; }
+.ghs_forecast_weather .weather_status{ font-size: 1.3rem; line-height: 1.3rem; margin: 0; margin-top: .7rem !important; }
